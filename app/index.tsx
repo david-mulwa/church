@@ -4,7 +4,7 @@ import { Redirect } from "expo-router";
 const Page = () => {
   const { isSignedIn } = useAuth();
 
-  if (isSignedIn) return <Redirect href="/(tabs)/" />;
+  if (isSignedIn) return <Redirect href="/(tabs)/profile" />;
 
   return <Redirect href="/(auth)/welcome" />;
 };

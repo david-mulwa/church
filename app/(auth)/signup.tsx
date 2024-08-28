@@ -116,6 +116,7 @@ export default function SignUpScreen() {
               value={code}
               placeholder="Code..."
               onChangeText={setCode}
+              keyboardType='numeric'
             />
             {loading ? (
               <ActivityIndicator size="large" color="#0000ff" />

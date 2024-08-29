@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const partner = () => {
+const photos = () => {
   return (
     <View>
-      
+      <Text>photos</Text>
     </View>
   )
 }
 
-export default partner
+export default photos

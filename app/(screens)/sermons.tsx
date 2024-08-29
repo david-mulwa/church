@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const partner = () => {
+const sermons = () => {
   return (
     <View>
-      
+      <Text>sermons</Text>
     </View>
   )
 }
 
-export default partner
+export default sermons

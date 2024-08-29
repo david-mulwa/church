@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const partner = () => {
+const stream = () => {
   return (
     <View>
-      
+      <Text>stream</Text>
     </View>
   )
 }
 
-export default partner
+export default stream

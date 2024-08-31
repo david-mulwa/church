@@ -4,7 +4,7 @@ import React from 'react'
 const partner = () => {
   return (
     <View>
-      
+      <Text>partner</Text>
     </View>
   )
 }

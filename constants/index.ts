@@ -18,6 +18,12 @@ import high2 from '@/assets/images/highlights/high2.jpg'
 import high3 from '@/assets/images/highlights/high3.jpg'
 import high4 from '@/assets/images/highlights/high4.jpg'
 import high5 from '@/assets/images/highlights/high5.jpg'
+import mpesa from '@/assets/images/payment/mpesa.png'
+import paypal from '@/assets/images/payment/paypal.png'
+import master from '@/assets/images/payment/master.png'
+
+
+
 export const images ={
     cross,
     logo,
@@ -38,8 +44,31 @@ export const images ={
     high2,
     high3,
     high4,
-    high5
+    high5,
+    mpesa,
+    paypal,
+    master,
+    
 }
+
+export const payment=[
+    {
+        id: 1,
+        img: images.mpesa,
+        name: 'Mpesa'
+
+    },
+    {
+        id: 2,
+        img: images.paypal,
+        name: 'Paypal'
+    },
+    {
+        id: 3,
+        img: images.master,
+        name: 'Master Card'
+    },
+]
 
 export const events=[
     {

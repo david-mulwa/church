@@ -12,3 +12,7 @@ declare module '*.svg'{
 declare module '*.jpeg'{
     export default string
 }
+
+declare module 'react-native-dotenv' {
+  export const config: any;
+}
